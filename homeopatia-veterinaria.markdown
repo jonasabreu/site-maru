@@ -29,3 +29,4 @@ universidades (USP e UNESP).
 E, finalmente, a homeopatia veterinária tem como essência a melhora da qualidade de vida e bem estar do seu 
 animal e, quando possível a CURA. Então, não perca a oportunidade de transformar seus conceitos e nos conhecer.  
 
+Maria Eugenia Carretero
