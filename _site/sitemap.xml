@@ -4,7 +4,7 @@
   <!--  Homepage -->
   <url>
     <loc>http://www.veterinariahomeopatia.com.br/</loc>
-    <lastmod>2013-05-28</lastmod>
+    <lastmod>2013-05-29</lastmod>
     <changefreq>daily</changefreq>
 		<priority>1.0</priority>
   </url>
@@ -13,9 +13,18 @@
 
   
   <url>
+    <loc>http://www.veterinariahomeopatia.com.br/homeopatia-veterinaria.html</loc>
+    
+    <lastmod>2013-05-29</lastmod>
+    
+    
+    
+  </url>
+  
+  <url>
     <loc>http://www.veterinariahomeopatia.com.br/index.html</loc>
     
-    <lastmod>2013-05-28</lastmod>
+    <lastmod>2013-05-29</lastmod>
     
     
     
