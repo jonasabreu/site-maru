@@ -7,19 +7,17 @@
     <link rel="stylesheet" media="screen" href="/stylesheets/bootstrap.min.css" type="text/css" />
     <link rel="stylesheet" media="screen" href="/stylesheets/bootstrap-responsive.min.css" type="text/css" />
     <link rel="stylesheet" media="screen" href="/stylesheets/style.css" type="text/css" />
-    
     <!-- google analytics async -->
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', '']);
-      _gaq.push(['_trackPageview']);
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
-    
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-41304790-1', 'homeopatiaveterinaria.com.br');
+		  ga('send', 'pageview');
+
+	</script>
   </head>
   <body>
 	<div class="navbar">
@@ -58,6 +56,20 @@
 			<strong>Atendimento na <a href="http://www.naturezaemforma.org.br/">ONG Natureza Em Forma</a> 
 			(com agendamento)</strong> <br>
 			R$ 50,00
+		</div>
+	</div>
+	<div class="span4 well">
+		<div itemscope itemtype="http://schema.org/Person">
+			<h2><span itemprop="givenName">André Pereira</span> <span itemprop="familyName">Paduan</span></h2>
+			<img src="/images/foto_paduan.jpg" alt="Maria Eugenia Carretero" />
+			CRMV-SP: <a href="http://www.cfmv.gov.br/consulta/index.php?nome_regra=inicia&nome=&inscricao_uf=SP&inscricao_nro=25048&inscricao_classe=VP&uf=&especialidade=&inscricao_tipo=&situacao=&ordem=NOME&pag=1&posicao=0&flag=1">27670</a><br>
+			Celular: <a itemprop="telephone" href="tel:+5511999318006">(11) 99931-8006</a></span><br>
+			Email: <a href="mailto:andrepaduan@hotmail.com" itemprop="email">andrepaduan@hotmail.com</a><br>
+			Facebook: <a href="https://www.facebook.com/homeopatiavet">Homeopata Veterinário Dr. André Paduan</a><br> 
+		</div>
+		<div class="alert alert-info atendimento">
+			<strong>Atendimento em Domicílio</strong> <br>
+			R$ 130,00
 		</div>
 	</div>
 </div>
