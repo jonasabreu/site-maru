@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="autor">
+    {% if site.plusid[page.author] %}
+        <a href="https://plus.google.com/{{ site.plusid[page.author] }}?rel=author">{{ page.author }}</a>
+    {% else %}
+	    {{ page.author }}
+    {% endif %} 
+    em {{ page.date | date: "%d/%m/%Y"  }}
+</div>
+<br />
+
+{{ page.content | unindent | markdownify }}
+
+<div class="postnav">
+	{% if page.previous %}
+	<div class="prev">Anterior: <a href="{{ page.previous.url }}" rel="prev">{{ page.previous.title }}</a></div>
+	{% endif %}
+	{% if page.next %}
+	<div class="next">Pr&oacute;ximo: <a href="{{ page.next.url }}" rel="prev">{{ page.next.title }}</a></div>
+	{% endif %}
+</div>
+

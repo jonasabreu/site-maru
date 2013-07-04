@@ -26,3 +26,11 @@ a:hover {
 footer {
 	margin-bottom: 30px;
 }
+
+.recentes {
+    clear: both;
+}
+
+.recentes li {
+    list-style: none;
+}
