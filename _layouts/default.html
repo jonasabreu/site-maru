@@ -1,7 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+    <title>
+      {% capture page_title %}
+        {% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}
+      {% endcapture %}
+      {{page_title}}
+    </title>
     {% if page.description %}
     <meta name="description" content="{{ page.description }}" />
     {% endif %}
@@ -42,9 +47,21 @@
 			<div class="span9">
 				<hr />
 				Contato: <br>
-				Maria Eugenia Carretero &mdash; <a href="tel:+5511991492622">(11) 99149-2622</a>
-				André Pereira Paduan &mdash; <a href="tel:+5511999318006">(11) 99931-8006</a>
-			</div>
+                André Pereira Paduan &mdash; <a href="tel:+5511999318006">(11) 99931-8006</a><br>
+                Maria Eugenia Carretero &mdash; <a href="tel:+5511991492622">(11) 99149-2622</a><br>
+            </div>
+            <div class="share">
+                <h3>Compartilhe</h3>
+            <ul>
+                
+{% capture share_url%}
+{{ site.url | url_encode}}{{page.url | url_encode }}
+{% endcapture %}
+              <li><img height="15" src="/images/facebook.gif" /><a href="https://www.facebook.com/sharer/sharer.php?u={{share_url}}" target="_blank">Facebook</a></li>
+              <li><img height="15" src="/images/gplus.png" /><a href="https://plus.google.com/share?url={{share_url}}" target="_blank">Google+</a></li>
+              <li><img height="15" src="/images/twitter-bird.gif" /><a href="http://twitter.com/share?text={{page_title | fix_white_chars | url_encode}}&url={{share_url}}" target="_blank">Twitter</a></li>
+            </ul>
+            </div>
 		</footer>
     </div>
   </body>

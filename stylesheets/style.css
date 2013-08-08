@@ -34,3 +34,32 @@ footer {
 .recentes li {
     list-style: none;
 }
+
+.share {
+    position: fixed;
+    top: 65px;
+    left: 20px;
+}
+
+.share li {
+    list-style: none;
+}
+
+.share ul {
+	margin-left: 20px;
+}
+
+.share img {
+	height: 15px;
+    width: 15px;
+	margin-left: -15px;
+}
+
+.share a {
+	display: inline-block;
+	margin-left: 5px;
+}
+
+#comments {
+    margin-top: 25px;
+}

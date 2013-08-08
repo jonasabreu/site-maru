@@ -8,7 +8,10 @@ markdown: rdiscount
 # configuration required for some pages
 
 domain: www.veterinariahomeopatia.com.br
+url: http://www.veterinariahomeopatia.com.br
 title: Homeopatia Veterinária
 author: Maria Eugenia Carretero
 email: maru.veterinaria@gmail.com
 
+disqus:
+    id: veterinariahomeopatia
