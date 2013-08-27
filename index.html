@@ -47,7 +47,7 @@ layout: default
     <div class="recentes">
     <h2>Publicações Recentes</h2>
     <ul>
-    {% for page in site.posts limit:5 %}
+    {% for page in site.posts %}
 	    <li><a href="{{page.url}}">{{page.title}}</a> por {{ page.author }} em {{ page.date | date: "%d/%m/%Y"  }}</li>
 
     {% endfor %}
