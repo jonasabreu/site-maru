@@ -6,7 +6,7 @@ source ~/.rvm/scripts/rvm
 
 rm -fr _site
 
-rvm use 2.1.0
+rvm use 2.1.2
 bundle install
 jekyll build
 

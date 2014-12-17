@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-ruby '2.1.0'
+ruby '2.1.2'
 
-gem 'jekyll', '1.4.3'
+gem 'jekyll', '2.5.1'
 gem 'rdiscount'
