@@ -1,6 +1,6 @@
 ---
 author: Maria Eugenia Carretero
-title: Medo de fogos de Artifício: O que fazer?
+title: Medo de fogos de Artifício. O que fazer?
 layout: post
 permalink: /medo-fogos-artificio-que-fazer.html
 ---
